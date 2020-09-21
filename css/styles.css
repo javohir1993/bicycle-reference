@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: rgb(36, 187, 149);
+}
+
+.reference {
+  width: 600px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 50px 50px 200px 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgb(124, 124, 124);
+  background-image: url(../img/bicycle.png);
+  background-size: contain;
+  background-position: 0 222px;
+  background-repeat: no-repeat;
+}
+
+.reference-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.reference-title {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.reference-icon-link {
+  margin-left: auto;
+  padding: 7px;
+  border-radius: 50%;
+  border: 1px solid #eeeeee;
+}
+
+.reference-icon-link:hover {
+  box-shadow: 0 0 10px rgb(112, 110, 110);
+}
+
+.reference-header-text {
+  color: #eee;
+}
+
+.definitions {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.definitions-item {
+  display: flex;
+}
+
+.definitions-text {
+  text-transform: capitalize;
+}
+
+.definitions-currensies {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.definitions-text-total {
+  text-transform: uppercase;
+
+}
