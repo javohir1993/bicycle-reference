@@ -35,6 +35,12 @@ body {
   padding: 0;
 }
 
+.reference-icon {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
 .reference-icon-link {
   margin-left: auto;
   padding: 7px;
@@ -43,11 +49,11 @@ body {
 }
 
 .reference-icon-link:hover {
-  box-shadow: 0 0 10px rgb(112, 110, 110);
+  box-shadow: 0 0 10px rgba(216, 214, 214, 0.993);
 }
 
 .reference-header-text {
-  color: #eee;
+  color: rgb(158, 157, 157);
 }
 
 .definitions {
